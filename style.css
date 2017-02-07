@@ -1,3 +1,7 @@
+body {
+  background: #ddd;
+}
+
 span {
   font-size: 90px;
 }
@@ -54,11 +58,14 @@ button {
   color: #6772e5;
   text-decoration: none;
   transition: all 0.15s ease;
+  border: 0;
+  outline: none;
 }
 
 button:hover {
   color: #7795f8;
   transform: translateY(-1px);
+  border: 0;
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
@@ -66,5 +73,6 @@ button:active {
   color: #555abf;
   background-color: #f6f9fc;
   transform: translateY(1px);
+  border: 0;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
